@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+pypdf = "*"
+nest-asyncio = "*"
+langchain-community = "*"
+langchain = "*"
+langchain-huggingface = "*"
+faiss-cpu = "*"
+streamlit = "*"
+accelerate = "*"
+tf-keras = "*"
+
+[dev-packages]
+pytest = "*"
+black = "*"
+
+[requires]
+python_version = "3.12"
